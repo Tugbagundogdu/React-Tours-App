@@ -1,0 +1,64 @@
+body{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+h1 , h2{
+  color: #213547;
+}
+.price{
+  background-color: rgb(155, 178, 219);
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  color:rgb(65, 92, 142);
+  font-weight: bold;
+}
+
+button{
+background-color: white;
+border: 1px solid tomato;
+color: red;
+font-size: 30px;
+padding: 10px;
+border-radius: 5px;
+margin-top: 15px;
+}
+button:hover{
+  background-color: tomato;
+  color: white;
+}
+.header{
+display: flex;
+justify-content: space-around;
+width: 100%;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.readMore{
+  color: rgb(192,192,192);
+  cursor: pointer;
+}
+
+.tour{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 650px;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+  box-shadow: -1px 0px 1px 3px #ddd8d8;
+}
+
+.tour img{
+  height: 400px;
+}
